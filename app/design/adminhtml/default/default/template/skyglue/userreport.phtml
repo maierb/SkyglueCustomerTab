@@ -1,0 +1,32 @@
+<div id="customer_info_tabs_customer_edit_tab_userreport_content">
+    <div class="entry-edit">
+        <div class="entry-edit-head">
+            <h4 class="icon-head head-edit-form fieldset-legend">SKYGLUE USER REPORT</h4>
+        </div>
+        <div id="group_fields4" class="fieldset fieldset-wide">
+            <div class="hor-scroll">
+                <table class="form-list" cellspacing="0">
+                    <tbody>
+                    <tr>
+                        <td>
+
+                            <div id="d1"></div>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+    #d1.loading {background:url('/skin/adminhtml/default/default/images/ajax-loader-tr.gif') no-repeat 0 0;}
+</style>
+<script type="text/javascript">
+    Event.observe('customer_info_tabs_customer_edit_tab_userreport', 'click', function(event) {
+        $('d1').addClassName('loading').update('<iframe src="https://app.skyglue.com/reports/user_report_drilldown/?registered_id=<?php echo (Mage::registry('current_customer')->getid());?>&profileId=ga:80576623&start_date=03/01/2014&end_date=04/22/2018&segment=gaid::-1&iframe=true" width="929" height="600" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="yes"></iframe>');
+        event.stop();
+    });;
+</script>
+
+

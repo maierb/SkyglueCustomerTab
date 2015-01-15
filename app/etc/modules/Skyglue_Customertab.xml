@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Skyglue_Customertab>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Skyglue_Customertab>
+    </modules>
+</config>

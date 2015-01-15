@@ -1,0 +1,10 @@
+INSTALL INSTRUCTIONS:
+1)Unzip the contents of this zip file within your magento root
+2)In app/design/adminhtml/default/default/template/userreport.phtml edit Line 27 and replace the XXXXXXXX with your ga code and the XX/XX/XXXX with your start date in mm/dd/yyyy format:
+
+&profileId=ga:XXXXXXXX&start_date=XX/XX/XXXX&end_date=04/22/2018&segment=gaid::-1&iframe=true 
+
+to be the details of your account and start date
+
+Thanks and enjoy!
+Please report all bugs to skyglue support at www.skyglue.com

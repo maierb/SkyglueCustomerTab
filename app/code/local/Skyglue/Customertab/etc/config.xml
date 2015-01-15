@@ -1,0 +1,23 @@
+<config>
+    <modules>
+        <Skyglue_Customertab>
+            <version>0.1.0</version>
+        </Skyglue_Customertab>
+    </modules>
+    <global>
+        <blocks>
+            <customertab>
+                <class>Skyglue_Customertab_Block</class>
+            </customertab>
+        </blocks>
+    </global>
+    <adminhtml>
+        <layout>
+            <updates>
+                <customertab>
+                    <file>skyglue/customertab.xml</file>
+                </customertab>
+            </updates>
+        </layout>
+    </adminhtml>
+</config>
