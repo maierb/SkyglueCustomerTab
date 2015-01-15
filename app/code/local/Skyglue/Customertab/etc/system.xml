@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <skyglueconfig translate="label" module="skyglue">
+            <label>SkyGlue by MageNYC</label>
+            <sort_order>99999</sort_order>
+        </skyglueconfig>
+    </tabs>
+</config>
