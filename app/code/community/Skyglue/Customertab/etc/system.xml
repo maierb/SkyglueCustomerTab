@@ -34,7 +34,7 @@
                         </sgaccount>
                         <startdate>
                             <label>Start Date</label>
-                            <frontend_type>date</frontend_type>
+                            <frontend_type>datetime</frontend_type>
                             <sort_order>1</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
