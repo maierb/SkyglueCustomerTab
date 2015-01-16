@@ -28,13 +28,17 @@
             <resources>
                 <admin>
                     <children>
-                        <config>
-                            <chilfren>
-                                <skyglue_options>
-                                    <title>SkyGlue CustomerTab Section</title>
-                                </skyglue_options>
-                            </chilfren>
-                        </config>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <skyglue_options>
+                                            <title>SkyGlue CustomerTab Section</title>
+                                        </skyglue_options>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
                     </children>
                 </admin>
             </resources>
