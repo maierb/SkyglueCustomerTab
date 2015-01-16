@@ -1,9 +1,20 @@
 <?xml version="1.0"?>
 <config>
     <tabs>
-        <skyglueconfig translate="label" module="skyglue">
+        <skyconfig translate="label" module="customertab">
             <label>SkyGlue by MageNYC</label>
             <sort_order>900</sort_order>
-        </skyglueconfig>
+        </skyconfig>
     </tabs>
+    <sections>
+        <skyglue_options translate="label" module="customertab">
+            <label>Skyglue Settings</label>
+            <tab>skyconfig</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>1000</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+        </skyglue_options>
+    </sections>
 </config>
