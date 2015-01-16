@@ -32,6 +32,14 @@
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
                         </sgaccount>
+                        <startdate>
+                            <label>Start Date</label>
+                            <frontend_type>date</frontend_type>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </startdate>
                     </fields>
                 </settings>
             </groups>
