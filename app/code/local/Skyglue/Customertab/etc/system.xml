@@ -3,7 +3,7 @@
     <tabs>
         <skyglueconfig translate="label" module="skyglue">
             <label>SkyGlue by MageNYC</label>
-            <sort_order>99998</sort_order>
+            <sort_order>900</sort_order>
         </skyglueconfig>
     </tabs>
 </config>
