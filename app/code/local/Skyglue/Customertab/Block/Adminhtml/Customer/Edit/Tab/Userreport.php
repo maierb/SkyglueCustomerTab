@@ -32,7 +32,7 @@ class Skyglue_Customertab_Block_Adminhtml_Customer_Edit_Tab_Userreport
      */
     public function getTabLabel()
     {
-        $label = '<span style="background:url(/skin/adminhtml/default/default/skyglue/skyglue.png) no-repeat left 1px; padding:0 0 0 20px">Skyglue User Report';
+        $label = '<span style="background:url(/skin/adminhtml/default/default/skyglue/skyglue.png) no-repeat left 1px; padding:0 0 0 20px">SKYGLUE User Report';
         return ($label);
     }
 
@@ -43,7 +43,7 @@ class Skyglue_Customertab_Block_Adminhtml_Customer_Edit_Tab_Userreport
      */
     public function getTabTitle()
     {
-        return $this->__('SKYGLUE User Report');
+        return $this->__('Skyglue User Report');
     }
 
     /**
