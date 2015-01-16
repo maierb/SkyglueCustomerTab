@@ -24,7 +24,7 @@
                     <show_in_website>1</show_in_website>
                     <show_in_store>1</show_in_store>
                     <fields>
-                        <sgaccount>
+                        <sgaccount translate="label">
                             <label>SkyGlue Account ID</label>
                             <frontend_type>text</frontend_type>
                             <sort_order>1</sort_order>
@@ -32,11 +32,11 @@
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
                         </sgaccount>
-                        <startdate>
+                        <startdate translate="label">
                             <label>Start Date</label>
                             <frontend_type>text</frontend_type>
-                            <frontend_model>skyglue_customertab/adminhtml_system_config_date</frontend_model>
-                            <sort_order>1</sort_order>
+                            <frontend_model>customertab/adminhtml_system_config_date</frontend_model>
+                            <sort_order>20</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>

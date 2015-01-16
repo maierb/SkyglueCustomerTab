@@ -8,7 +8,6 @@
         <blocks>
             <customertab>
                 <class>Skyglue_Customertab_Block</class>
-                <class>Skyglue_Customertab_Block_Adminhtml_System_Config_Date</class>
             </customertab>
         </blocks>
         <helpers>
