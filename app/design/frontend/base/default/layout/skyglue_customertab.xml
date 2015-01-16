@@ -5,7 +5,7 @@
         <block type="core/template" name="skyglue_beforebodyend" template="skyglue/beforebodyend.phtml"/>
 
         <reference name="before_body_end">
-            <action method="append" ifconfig="skyglue_options/settings/enable_javascript">
+            <action method="append" ifconfig="skyglue_options/settings/sgaccount">
                 <name>skyglue_beforebodyend</name>
             </action>
         </reference>

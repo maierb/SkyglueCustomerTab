@@ -44,4 +44,13 @@
             </resources>
         </acl>
     </adminhtml>
+    <frontend>
+        <layout>
+            <updates>
+                <skyglue_customertab>
+                    <file>skyglue_customertab.xml</file>
+                </skyglue_customertab>
+            </updates>
+        </layout>
+    </frontend>
 </config>
