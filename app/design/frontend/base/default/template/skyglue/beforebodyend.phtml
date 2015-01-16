@@ -10,3 +10,9 @@
     }, 1);
 </script>
 <!-- End of SkyGlue Code -->
+
+<?php if (Mage::getSingleton('customer/session')->isLoggedIn()):?>
+    <script type="text/javascript">
+        var _sg_registeredUserId = "<?php echo Mage::helper('customer')->getCustomer()->getId();?>";
+    </script>
+<?php endif ?>
