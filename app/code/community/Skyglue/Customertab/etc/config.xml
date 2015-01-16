@@ -24,5 +24,20 @@
                 </customertab>
             </updates>
         </layout>
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <config>
+                            <chilfren>
+                                <skyglue_options>
+                                    <title>SkyGlue CustomerTab Section</title>
+                                </skyglue_options>
+                            </chilfren>
+                        </config>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
     </adminhtml>
 </config>
