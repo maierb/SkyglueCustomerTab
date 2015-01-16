@@ -24,7 +24,7 @@
 </style>
 <script type="text/javascript">
     Event.observe('customer_info_tabs_customer_edit_tab_userreport', 'click', function(event) {
-        $('d1').addClassName('loading').update('<iframe src="https://app.skyglue.com/reports/user_report_drilldown/?registered_id=<?php echo (Mage::registry('current_customer')->getid());?>&profileId=ga:80576623&start_date=03/01/2014&end_date=04/22/2018&segment=gaid::-1&iframe=true" width="929" height="600" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="yes"></iframe>');
+        $('d1').addClassName('loading').update('<iframe src="https://app.skyglue.com/reports/user_report_drilldown/?registered_id=<?php echo (Mage::registry('current_customer')->getid());?>&start_date=<?php echo Mage::getStoreConfig('skyglue_options/settings/startdate');?>&end_date=04/22/2018&segment=gaid::-1&iframe=true" width="929" height="600" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="yes"></iframe>');
         event.stop();
     });;
 </script>
