@@ -2,7 +2,7 @@
 <config>
     <modules>
         <Skyglue_Customertab>
-            <active>false</active>
+            <active>true</active>
             <codePool>community</codePool>
         </Skyglue_Customertab>
     </modules>
