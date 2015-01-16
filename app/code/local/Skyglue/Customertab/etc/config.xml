@@ -10,6 +10,11 @@
                 <class>Skyglue_Customertab_Block</class>
             </customertab>
         </blocks>
+        <helpers>
+            <customertab>
+                <class>Skyglue_Customertab_Helper</class>
+            </customertab>
+        </helpers>
     </global>
     <adminhtml>
         <layout>
