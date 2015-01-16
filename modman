@@ -1,0 +1,5 @@
+app/etc/modules/Skyglue_Customertab.xml app/etc/modules/Skyglue_Customertab.xml
+app/code/local/Skyglue/Customertab app/code/local/Skyglue/Customertab
+app/design/adminhtml/default/default/layout/skyglue/customertab.xml app/design/adminhtml/default/default/layout/skyglue/customertab.xml
+app/design/adminhtml/default/default/template/skyglue/userreport.phtml app/design/adminhtml/default/default/template/skyglue/userreport.phtml
+skin/adminhtml/default/default/skyglue/skyglue.png skin/adminhtml/default/default/skyglue/skyglue.png
