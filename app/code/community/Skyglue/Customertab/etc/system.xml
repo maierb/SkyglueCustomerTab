@@ -35,7 +35,7 @@
                         <startdate>
                             <label>Start Date</label>
                             <frontend_type>text</frontend_type>
-                            <frontend_model>namespace_module/adminhtml_system_config_date</frontend_model>
+                            <frontend_model>skyglue_customertab/adminhtml_system_config_date</frontend_model>
                             <sort_order>1</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
