@@ -3,3 +3,5 @@ app/code/community/Skyglue/Customertab                                  app/code
 app/design/adminhtml/default/default/layout/skyglue/customertab.xml     app/design/adminhtml/default/default/layout/skyglue/customertab.xml
 app/design/adminhtml/default/default/template/skyglue/userreport.phtml  app/design/adminhtml/default/default/template/skyglue/userreport.phtml
 skin/adminhtml/default/default/skyglue/skyglue.png                      skin/adminhtml/default/default/skyglue/skyglue.png
+app/design/frontend/base/default/layout/skyglue_customertab.xml         app/design/frontend/base/default/layout/skyglue_customertab.xml
+app/design/frontend/base/default/template/skyglue                       app/design/frontend/base/default/template/skyglue
