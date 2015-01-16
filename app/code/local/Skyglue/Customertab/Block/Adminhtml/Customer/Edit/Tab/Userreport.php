@@ -43,7 +43,7 @@ class Skyglue_Customertab_Block_Adminhtml_Customer_Edit_Tab_Userreport
      */
     public function getTabTitle()
     {
-        return $this->__('Skyglue User Report');
+        return $this->__('SKYGLUE User Report');
     }
 
     /**
