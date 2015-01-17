@@ -1,6 +1,11 @@
+
+
 INSTALL INSTRUCTIONS:
 1)Unzip the contents of this zip file within your magento root
-2)In app/design/adminhtml/default/default/template/userreport.phtml edit Line 27 and replace the XXXXXXXX with your ga code and the XX/XX/XXXX with your start date in mm/dd/yyyy format:
+
+2)DEPRECATED 1/15/2015 DO NOT USE!!!!!
+
+In app/design/adminhtml/default/default/template/userreport.phtml edit Line 27 and replace the XXXXXXXX with your ga code and the XX/XX/XXXX with your start date in mm/dd/yyyy format:
 
 &profileId=ga:XXXXXXXX&start_date=XX/XX/XXXX&end_date=04/22/2018&segment=gaid::-1&iframe=true 
 
