@@ -34,6 +34,7 @@
                                     <children>
                                         <skyglue_options>
                                             <title>SkyGlue CustomerTab Section</title>
+                                            <startdate>mm/dd/yyyy</startdate>
                                         </skyglue_options>
                                     </children>
                                 </config>

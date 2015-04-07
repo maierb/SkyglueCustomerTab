@@ -9,5 +9,6 @@
                 <name>skyglue_beforebodyend</name>
             </action>
         </reference>
+
     </default>
 </layout>

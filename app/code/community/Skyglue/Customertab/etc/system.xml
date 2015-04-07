@@ -33,8 +33,9 @@
                             <show_in_store>1</show_in_store>
                         </sgaccount>
                         <startdate translate="label">
-                            <label>Start Date (mm</label>
+                            <label>Start Date</label>
                             <frontend_type>text</frontend_type>
+                            <comment>Must be in mm/dd/yyyy format</comment>
                             <sort_order>20</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
